@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sitambhra's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <header>
+        
+        <div class="container">
+            <h1>Welcome to Sitambhra's Portfolio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#achievements">Achievements</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about"  >
+        <div class="intro fade-in">
+            <h2>About <span>Me</span></h2>
+            <p id="typewriter-text">I'm Sitambhra, a passionate web developer proficient in HTML, CSS, and JavaScript. Explore my projects and skills, showcasing my creativity and technical abilities!</p>
+        </div>
+    </section>
+
+    <section id="education"  >
+        <h2>Education</h2>
+        <div class="edu-timeline">
+            <div class="edu-item">
+                <h3>Chandigarh Engineering College</h3>
+                <p>B.Tech in Electronics and Communication Engineering (2021-2025)</p>
+                <p>CGPA: <strong class="marks">8.49</strong></p>
+            </div>
+            <div class="edu-item">
+                <h3>Partap World School</h3>
+                <p>Intermediate (CBSE, 2019-2020)</p>
+                <p>Percentage: <strong class="marks">86.8%</strong></p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" >
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill">
+                <h3>Languages</h3>
+                <p>C, C++, HTML, CSS, JavaScript</p>
+            </div>
+            <div class="skill">
+                <h3>Databases</h3>
+                <p>SQL, MySQL</p>
+            </div>
+            <div class="skill">
+                <h3>Soft Skills</h3>
+                <p>Leadership, Persuasive Communication, Public Speaking</p>
+            </div>
+            <div class="skill">
+                <h3>Relevant Courses</h3>
+                <p>Data Structures and Algorithms, Operating System, Computer Networks</p>
+            </div>
+        </div>
+        <div class="progress-bar" >
+            <h3> <span class="skill-head-color">Skill Proficiency</span></h3>
+            <div class="progress">
+                <div class="progress-bar-item">
+                    <span>HTML</span>
+                    <div class="bar"><div class="progress-fill html"></div></div>
+                </div>
+                <div class="progress-bar-item">
+                    <span>CSS</span>
+                    <div class="bar"><div class="progress-fill css"></div></div>
+                </div>
+                <div class="progress-bar-item">
+                    <span>JavaScript</span>
+                    <div class="bar"><div class="progress-fill js"></div></div>
+                </div>
+                <div class="progress-bar-item">
+                    <span>SQL</span>
+                    <div class="bar"><div class="progress-fill sql"></div></div>
+                </div>
+                <div class="progress-bar-item"></div>
+                    <span>DSA</span>
+                    <div class="bar"><div class="progress-fill dsa"></div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" >
+        <h2>Projects</h2>
+        <div class="project-container">
+            <div class="project-card">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <h3>Spotify Clone</h3>
+                        </div>
+                        <div class="flip-card-back">
+                            <p>A responsive music streaming platform built using HTML, CSS, and JavaScript, enhancing load times by 60% and improving cross-device compatibility.</p>
+                            <button onclick="window.open('https://github.com/Sitambhra02/spotify-clone', '_blank')">View Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <h3>Netflix Clone</h3>
+                        </div>
+                        <div class="flip-card-back">
+                            <p>Responsive Netflix UI built with HTML and CSS, improving layout optimization and responsiveness by 50%.</p>
+                            <button onclick="window.open('https://github.com/Sitambhra02/netflix-clone', '_blank')">View Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <h3>Guess Me Game</h3>
+                        </div>
+                        <div class="flip-card-back">
+                            <p>An interactive game developed using JavaScript, where users can test their guessing skills in a fun, engaging way.</p>
+                            <button onclick="window.open('https://github.com/Sitambhra02/guess-me-game', '_blank')">View Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <h3>Underwater Rescue Assistive System</h3>
+                        </div>
+                        <div class="flip-card-back">
+                            <p>A system to improve real-time tracking and health monitoring near water bodies using GPS, sensors, and IoT technology.</p>
+                            <button onclick="window.open('https://github.com/Sitambhra02/underwater-rescue-system', '_blank')">View Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="achievements" >
+        <h2 >Achievements</h2>
+        <div class="achievements-container">
+            <div class="achievement-item">
+                <h3>Smart India Hackathon 2023</h3>
+                <p>Finalist with Team Gryffindor, ranking among the top 5% nationally.</p>
+            </div>
+            <div class="achievement-item">
+                <h3>Debating Competition</h3>
+                <p>Awarded 2nd position at CGC Landran.</p>
+            </div>
+            <div class="achievement-item">
+                <h3>Lead Organizer</h3>
+                <p>Unnat Bharat Abhiyan, impacting over 200 villagers.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" >
+        <h2 >Contact</h2>
+        <p>Email: <a href="mailto:sitambhrasalaria02@gmail.com">sitambhrasalaria02@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/sitambhra" target="_blank">LinkedIn Profile</a></p>
+        <p>GitHub: <a href="https://github.com/Sitambhra02" target="_blank">GitHub Profile</a></p>
+    </section>
+
+    <footer>
+        <p>© 2024 Sitambhra | All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

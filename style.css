@@ -1,0 +1,274 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+body {
+      font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+     font-style: normal;
+     margin: 0;
+    padding: 0;
+    background-color: rgba(16,15,15,1); /* Light background color */
+    color: rgba(67,67,67,1);
+  
+}
+
+header {
+    background-color: #000000; /* Bright header color */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffcc00; /* Highlight color on hover */
+}
+
+section {
+    padding: 40px 20px;
+}
+section h2{
+    color: #e11d48;
+
+}
+section h3{
+    color: white;
+}
+#achievements h3{
+color: rgb(144, 47, 47);
+}
+#skills h3{
+     color: rgb(144, 47, 47);
+    ;
+}
+
+.intro {
+     text-align: center;
+}
+.intro span{
+    color: #e11d48;
+}
+
+.intro p {
+     font-size: 1.4em;
+    margin: 10px 0;
+    color: white;
+}
+.intro h2{
+    color: white;
+    font-size: 40px;
+}
+
+.edu-timeline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin: 0 auto;
+}
+
+.edu-item {
+    background-color: rgba(25,25,25,1); /* White background for education */
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    width: 80%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 1;
+}
+.marks{
+    color: #e11d48;
+}
+.skills-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.skill {
+    background-color: #ffffff; /* White background for skills */
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 1 0 30%;
+    text-align: center;
+}
+.skill-head-color{
+    color: #e11d48;
+
+}
+
+.progress-bar {
+    margin-top: 20px;
+}
+
+.progress-bar-item {
+    margin-bottom: 10px;
+}
+
+.bar {
+    background-color: #ddd;
+    border-radius: 5px;
+    height: 10px;
+    position: relative;
+    margin-top: 5px;
+}
+
+.progress-fill {
+    height: 100%;
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.html { width: 90%; background-color: #067b90; } /* HTML color */
+.css { width: 80%; background-color: #165b05; } /* CSS color */
+.js { width: 75%; background-color: #55b64b; } /* JavaScript color */
+.sql { width: 85%; background-color: #dad00e; } /* SQL color */
+.dsa { width: 50%; background-color: #e45e0a; } /* SQL color */
+
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.project-card {
+    perspective: 1000px;
+    margin: 20px;
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 250px;
+    height: 300px;
+    position: relative;
+    margin: 0 auto; /* Center the flip cards */
+}
+
+.flip-card-inner {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.flip-card-front {
+    background-color: #d92149;
+    color: white;
+    font-size: 1.5em;
+}
+
+.flip-card-back {
+    background-color: #f7f7f7;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    transform: rotateY(180deg);
+}
+
+button {
+    background-color: #ffcc00; /* Button color */
+    border: none;
+    color: #333;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+    background-color: #ffb700; /* Button hover color */
+    transform: translateY(-2px); /* Button lift effect */
+}
+
+.achievements-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.achievement-item {
+    background-color: #ffffff; /* White background for achievements */
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    width: 80%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+ 
+
+footer {
+    background-color: #e11d48; /* Footer color */
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+}
+/* Keyframe animation for smooth slide-in and fade-in effect */
+@keyframes smoothSlideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(50px); /* Start 50px below */
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0); /* End at normal position */
+  }
+}
+
+/* Apply animation to the element */
+#typewriter-text {
+  opacity: 0; /* Start with invisible text */
+  animation: smoothSlideIn 2s ease-in-out forwards; /* 2s smooth animation */
+}
